@@ -1,18 +1,20 @@
-/* Reset de CSS - Limpa configurações padrão que atrapalham*/
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+/* Reset de CSS - Limpa configurações padrão que atrapalham */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
 }
 
-/* seletores - seleciona elemnetos para estilizar*/
-/* Seleciona por tag - seleciona todos os elementos com tag*/
+/* Seletores - Seleciona elementos para estilizar */
+/* Seletor por tag - Seleciona todos os elementos com a tag */
 div {
-    height: 500;
-    width: 200;
+    height: 500px;
+    width: 200px;
     background-color: blue;
-    border: solid 8px black
-
+    border: solid 8px black;
 }
 
-/* Seletor por classe - ele seleciona todos os elememtos com a classe  usando o comando classe*/
+/* Seletor por classe - Seleciona todos os elementos com a classe */
+.caixa-verde {
+    background-color: darkgreen;
+}
